@@ -1,24 +1,40 @@
 section {
     background-color: rgb(245, 219, 185);
+    padding: 4%;
+    border: 4px #231c1a dotted;
+
 }
-*{
-    padding: 0;
-    margin: 0;
-}
+
 header{
     background-color: #231c1a;
+    height: 100px;
+    width: 100%;
+    position: relative;
 }
-h1{
-    color: white;
-}
-header a {
+
+header a{
     color:white;
     text-decoration: none;
 }
-header a :hover{
-    text-decoration: underline;
-}
+
 header li{
     display: inline;
-    margin-right: 4vw;
+    margin-right: 5vw;
+}
+head ul{
+    position: absolute;
+    right:20px;
+    top: 90;
+    line-height: 100px;
+}
+h1{
+    color: white;
+    position: absolute;
+    left: 20px;
+    top: 90;
+    line-height: 100px;
+}
+h2{
+    display: flex;
+    flex-direction: column;
 }
